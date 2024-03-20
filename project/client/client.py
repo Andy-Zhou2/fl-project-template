@@ -16,7 +16,7 @@ from project.fed.utils.utils import (
     generic_set_parameters,
     get_isolated_rng_tuple,
 )
-from project.types.common import (
+from project.project_types.common import (
     CID,
     ClientDataloaderGen,
     ClientGen,

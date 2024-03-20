@@ -22,7 +22,7 @@ from flwr.server.history import History
 from torch import nn
 from project.fed.server.wandb_history import WandbHistory
 
-from project.types.common import (
+from project.project_types.common import (
     ClientCIDandSeedGeneratorsState,
     ClientGen,
     Ext,

@@ -4,7 +4,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from project.types.common import NetGen
+from project.project_types.common import NetGen
 from project.utils.utils import lazy_config_wrapper
 
 

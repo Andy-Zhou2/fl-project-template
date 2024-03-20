@@ -2,7 +2,7 @@
 
 from torch import nn
 
-from project.types.common import IsolatedRNG
+from project.project_types.common import IsolatedRNG
 
 
 class Net(nn.Module):

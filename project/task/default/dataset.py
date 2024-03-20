@@ -17,7 +17,7 @@ import torch
 from pydantic import BaseModel
 from torch.utils.data import DataLoader, Dataset, TensorDataset
 
-from project.types.common import CID, IsolatedRNG
+from project.project_types.common import CID, IsolatedRNG
 
 
 class ClientDataloaderConfig(BaseModel):

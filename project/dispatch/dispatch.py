@@ -21,7 +21,7 @@ from project.task.mnist_classification.dispatch import (
 from project.task.mnist_classification.dispatch import (
     dispatch_train as dispatch_mnist_train,
 )
-from project.types.common import ConfigStructure, DataStructure, TrainStructure
+from project.project_types.common import ConfigStructure, DataStructure, TrainStructure
 
 
 def dispatch_train(cfg: DictConfig, **kwargs: Any) -> TrainStructure:
@@ -128,6 +128,7 @@ def dispatch_config(cfg: DictConfig, **kwargs: Any) -> ConfigStructure:
 
     # Match the first function which does not return None
     for task in task_config_functions:
+        # print("task:", task)
         result = task(cfg, **kwargs)
         if result is not None:
             return result

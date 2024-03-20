@@ -33,7 +33,7 @@ from project.fed.utils.utils import (
     get_weighted_avg_metrics_agg_fn,
     test_client,
 )
-from project.types.common import ClientGen, FedEvalFN, Folders
+from project.project_types.common import ClientGen, FedEvalFN, Folders
 from project.utils.utils import (
     FileSystemManager,
     RayContextManager,
@@ -75,6 +75,7 @@ def main(cfg: DictConfig) -> None:
             HydraConfig.get().runtime.output_dir,
         ),
     )
+    # print("original_hydra_dir", original_hydra_dir)
 
     output_directory = original_hydra_dir
 

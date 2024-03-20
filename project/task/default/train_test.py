@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 
 from project.client.client import ClientConfig
 from project.fed.utils.utils import generic_set_parameters
-from project.types.common import (
+from project.project_types.common import (
     FedDataloaderGen,
     FedEvalFN,
     IsolatedRNG,

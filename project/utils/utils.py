@@ -22,7 +22,12 @@ import wandb
 from wandb.sdk.wandb_run import Run
 from wandb.sdk.lib.disabled import RunDisabled
 
-from project.types.common import Ext, FileCountExceededError, Folders, IsolatedRNG
+from project.project_types.common import (
+    Ext,
+    FileCountExceededError,
+    Folders,
+    IsolatedRNG,
+)
 
 
 def obtain_device() -> torch.device:

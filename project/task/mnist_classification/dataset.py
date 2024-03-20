@@ -11,7 +11,7 @@ from project.task.default.dataset import (
 from project.task.default.dataset import (
     FedDataloaderConfig as DefaultFedDataloaderConfig,
 )
-from project.types.common import (
+from project.project_types.common import (
     CID,
     ClientDataloaderGen,
     FedDataloaderGen,

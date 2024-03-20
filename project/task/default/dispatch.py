@@ -34,7 +34,7 @@ from project.task.default.train_test import (
     test,
     train,
 )
-from project.types.common import ConfigStructure, DataStructure, TrainStructure
+from project.project_types.common import ConfigStructure, DataStructure, TrainStructure
 
 
 def dispatch_train(

@@ -11,7 +11,7 @@ from flwr.server.client_manager import ClientManager
 from flwr.server.history import History
 from flwr.server.strategy import Strategy
 
-from project.types.common import ServerRNG
+from project.project_types.common import ServerRNG
 
 
 class WandbServer(Server):

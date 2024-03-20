@@ -32,7 +32,7 @@ from project.task.default.dispatch import (
 from project.task.mnist_classification.dataset import get_dataloader_generators
 from project.task.mnist_classification.models import get_logistic_regression, get_net
 from project.task.mnist_classification.train_test import get_fed_eval_fn, test, train
-from project.types.common import DataStructure, TrainStructure
+from project.project_types.common import DataStructure, TrainStructure
 
 
 def dispatch_train(

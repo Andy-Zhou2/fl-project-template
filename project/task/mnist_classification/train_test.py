@@ -16,7 +16,7 @@ from project.task.default.train_test import (
 from project.task.default.train_test import (
     get_on_fit_config_fn as get_default_on_fit_config_fn,
 )
-from project.types.common import IsolatedRNG
+from project.project_types.common import IsolatedRNG
 
 
 class TrainConfig(BaseModel):
